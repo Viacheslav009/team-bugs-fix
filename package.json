@@ -1,21 +1,21 @@
 {
-  "name": "parcel-project-template",
+  "name": "team-bugs-fix",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Anna010622.github.io/team-project",
+  "homepage": "https://Viacheslav009.github.io/team-bugs-fix",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project/"
+    "build": "parcel build src/*.html --public-url /team-bugs-fix/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Viacheslav009/team-bugs-fix.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/Viacheslav009/team-bugs-fix/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
