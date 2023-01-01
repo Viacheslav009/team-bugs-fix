@@ -1,5 +1,5 @@
 .header__container {
-  background-color: var(--main-bg-color);
+  // background-color: var(--main-bg-color);
   display: flex;
   align-items: center;
 
@@ -121,4 +121,7 @@
   100% {
     transform: translate(110%, -50%) rotate(40deg);
   }
+}
+.header {
+  background-color: var(--main-bg-color);
 }

@@ -1,20 +1,19 @@
 .gallery {
-  max-width: 100%;
+  // max-width: 100%;
 }
-
-.container.gallery__bg {
-  padding: 0 20px;
+.gallery__bg {
+  // padding: 0 20px;
 
   background-image: linear-gradient(to bottom, #84a178 25%, transparent 25%);
 
   @media screen and (min-width: 768px) {
-    padding: 0 32px;
+    // padding: 0 32px;
 
     background-image: linear-gradient(to bottom, #84a178 44%, transparent 44%);
   }
 
   @media screen and (min-width: 1200px) {
-    padding: 0 93px;
+    // padding: 0 93px;
 
     background-image: linear-gradient(to bottom, #84a178 23%, transparent 23%);
   }
@@ -46,7 +45,8 @@
 
 .gallery_item {
   position: absolute;
-  left: 0;
+  align-items: center;
+  // left: 0;
 
   animation-name: galleryAnimation;
   animation-timing-function: ease-in-out;

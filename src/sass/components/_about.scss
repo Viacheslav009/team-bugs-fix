@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 50px;
 
-  background-color: #84a178;
+  // background-color: #84a178;
 
   @media screen and (min-width: 768px) {
     padding-bottom: 60px;
@@ -261,4 +261,7 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
+.about {
+  background-color: var(--main-bg-color);
 }

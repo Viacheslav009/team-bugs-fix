@@ -45,26 +45,38 @@
 
 .line {
   border-top: 1px solid #e1e1e1;
-  position: absolute;
+  // position: absolute;
   width: 100%;
   left: 0;
   right: 0;
   @media screen and(min-width:1200px) {
-    position: relative;
+    // position: relative;
+    // display: none;
+    width: 100%;
+    left: 15px;
+    right: 15px;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    position: absolute;
-    width: 768px;
+    // position: absolute;
+    width: 100%;
     left: 0;
     right: 0;
   }
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
-    position: absolute;
-    width: 480px;
+    // position: absolute;
+    width: 100%;
     left: 0;
     right: 0;
+  }
+}
+
+.line.container {
+  @media screen and (min-width: 1200px) {
+    display: none;
+    border-top: 1px solid #e1e1e1;
+    width: 100%;
   }
 }
 
@@ -231,4 +243,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
+  // @media screen and (min-width: 1200px) {
+  //   border-top: 1px solid #e1e1e1;
+  // }
 }
