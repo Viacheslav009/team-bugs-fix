@@ -1,5 +1,17 @@
 .gallery {
   // max-width: 100%;
+  // padding-bottom: 80px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    padding-bottom: 80px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 100px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 140px;
+  }
 }
 .gallery__bg {
   // padding: 0 20px;
@@ -20,9 +32,10 @@
 }
 
 .gallery__list {
+  // transform: translate(0, 98px);
   position: relative;
   height: 130px;
-  width: 100%;
+  width: 280px;
   margin: 0 auto;
 
   background-color: var(--main-text-color);
@@ -46,6 +59,8 @@
 .gallery_item {
   position: absolute;
   align-items: center;
+
+  //
   // left: 0;
 
   animation-name: galleryAnimation;
