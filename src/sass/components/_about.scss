@@ -1,12 +1,12 @@
 .about-container {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  // padding-top: 60px;
+  // padding-bottom: 50px;
 
   // background-color: #84a178;
 
-  @media screen and (min-width: 768px) {
-    padding-bottom: 60px;
-  }
+  // @media screen and (min-width: 768px) {
+  //   padding-bottom: 60px;
+  // }
 }
 
 .title-label {
@@ -264,4 +264,10 @@
 }
 .about {
   background-color: var(--main-bg-color);
+  padding-top: 60px;
+  padding-bottom: 50px;
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 60px;
+  }
 }
